@@ -17,6 +17,11 @@ export const TomatoButton = Button.extend`
 	border-color: tomato;
 `;
 
+export const ThemedButton = Button.extend`
+  background: ${props => props.theme.bg};
+  color: ${props => props.theme.fg};
+`;
+
 export const ExistedButton = styled.button.attrs({
 	className: 'blue',
 })`
