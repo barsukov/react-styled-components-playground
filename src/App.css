@@ -18,6 +18,85 @@
   font-size: large;
 }
 
+.donutchart-track{
+  fill: transparent;
+  stroke: #999;
+  stroke-width: 23;
+}
+
+.donutchart-indicator {
+  fill: transparent;
+  stroke: #0098db;
+  stroke-width: 26;
+  stroke-dasharray: 0 10000;
+  transition: stroke-dasharray .7s ease;
+}
+
+.donut-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.donut-agenda {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+
+.box-item-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.box-item {
+  max-width: 80%;
+}
+
+.color-box {
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.free {
+  background: #13b4ff;
+}
+
+.reserved {
+  background: #999;
+}
+
+.donutchart {
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.donutchart-text{
+  font-family: 'Roboto';
+  fill: #13b4ff;
+}
+.donutchart-text-val{
+  font-size:22px;
+}
+.donutchart-text-percent{
+  font-size:22px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

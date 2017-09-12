@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from 'styled-components';
 
+import { ThemeProvider } from 'styled-components';
 import { Button, TomatoButton, ExistedButton , ThemedButton } from '../components/Button'
 import { firstTheme, secondTheme } from '../simpleTheme'
 class StyledButtons extends Component {
