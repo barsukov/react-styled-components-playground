@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import StyledButtons from './containers/styledButtons'
-import DonutChart from './components/Donut'
+import Donut from './components/Donut'
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
           <StyledButtons />
-          <DonutChart />
+          <Donut />
         </p>
       </div>
     );
