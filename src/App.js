@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import StyledButtons from './containers/styledButtons'
 import Donut from './components/Donut'
+import DonutRecharts from './components/RechartDonut'
 
+import Animate from 'react-smooth'
 class App extends Component {
   render() {
     return (
@@ -12,10 +14,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to Styled componets playground</h2>
         </div>
-        <p className="App-intro">
-          <StyledButtons />
-          <Donut />
-        </p>
+        <DonutRecharts value={35}/>
       </div>
     );
   }
